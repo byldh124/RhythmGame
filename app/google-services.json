@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173515832875",
+    "project_id": "rythmgame01",
+    "storage_bucket": "rythmgame01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173515832875:android:8bfa430f3cadb0bcd5b46e",
+        "android_client_info": {
+          "package_name": "com.moondroid.rhythmgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173515832875-94tsqgm6thgj29nqa42euncpbq3kuuri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDgRCVafAVH6Vuyq4hquka1PZuBr1A6W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173515832875-94tsqgm6thgj29nqa42euncpbq3kuuri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
