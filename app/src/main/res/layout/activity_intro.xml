@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".IntroActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="절묘한 타이밍"
+        android:gravity="center"
+        android:fontFamily="@font/font_ex"
+        android:textColor="@color/main"
+        android:textSize="48sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/btn_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.8"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="게임 설정하기"
+            android:background="@drawable/button_selector"
+            app:backgroundTint="@null"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/font_ex"
+            android:textColor="@color/white"
+            android:onClick="clickSetting"/>
+
+        <Button
+            android:id="@+id/btn_ranking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="랭킹 보기"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button_selector"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/font_ex"
+            android:textColor="@color/white"
+            android:onClick="clickRanking"/>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintTop_toBottomOf="@id/btn_container"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="게임 시작"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/font_ex"
+        android:textColor="@color/white"
+        android:onClick="clickStart"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
